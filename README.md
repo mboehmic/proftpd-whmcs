@@ -19,8 +19,14 @@ Product Settings:
 - The proftpd Group is the "gid" od the group in the ftpgroup table. Same for the field "proftpd userid". 
 - Both the group id as well as the userid should exist in /etc/passwd
 
+The product allows the following actions in whmcs
+- create account
+- terminate account
+- change password
+- change package
+
 I have changed the field "passwd" in table "ftpuser" to varchar(40) (before varchar(32)) to be able to insert sha1 encrypted passwords.
-See file mysql.dump with a mysql dump of all 3 tables
+The automatically created password uses sha1 encryption. See file mysql.dump with a mysql dump of all 3 tables
 
 Tested on 
 - Debian 11
