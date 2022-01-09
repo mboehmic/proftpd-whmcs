@@ -3,7 +3,7 @@
 /**
 * Description: 	whmcs modul to change proftpd's mysql database
 * Company:		Biteno GmbH
-* Author:		Matthias Böhmichen
+* Author:		Matthias Boehmichen
 * Date:			30.12.2021
 *
 * Based on:		https://github.com/eksoverzero/whmcs-freeradius/tree/refactor
